@@ -112,14 +112,12 @@ a:hover{
 /*smart-watch timer*/
 
 #clock-icons{
- margin-left: 8px;
- margin-right: 8px;
  justify-content: space-around;  
  display: flex; 
 }
 
 #clock-icons:hover{
-    color: aliceblue;
+    color: rgb(218, 234, 248);
 }
 
 .timer{
@@ -128,14 +126,16 @@ a:hover{
     padding-bottom: 10px;
 }
 #start{
-    font-size: 13px;
+    font-size: 20px;
     transform:scale(1.1);
 }
 
 #stop{
+    font-size: 15px;
     transform: scale(1.1);
 }
 
 #reset{
+    font-size: 15px;
     transform: scale(1.1);
 }

@@ -17,7 +17,7 @@ document.querySelector("#clock").onclick = function(){
         <a id="stop"><i class="fa fa-pause"></i></a>
     </div>`;
 
-    mainPart.appendChild(clockContainer);
+    mainPart.appendChild(clockContainer);//append to main part
 
     var count = 0;
     var minutes = 0;
@@ -25,7 +25,7 @@ document.querySelector("#clock").onclick = function(){
     var milliseconds = 0;
     var seconds = 0;
     var timerRunning =false;
-
+//write function for start Timer
     const startTimer  = () =>
     {
         count++;
@@ -48,7 +48,7 @@ document.querySelector("#clock").onclick = function(){
     }
   };
     
-    // when clicking start button
+    // when user clicking on start icon
 
   const start = document.querySelector("#start");
   start.addEventListener("click", function () {
@@ -58,12 +58,13 @@ document.querySelector("#clock").onclick = function(){
     }
   });
 
-  // when clicking stop button
+  // when user clicking on stop icon 
   const stop = document.querySelector("#stop");
   stop.addEventListener("click", function () {
     clearInterval(interval);
   });
-    // when clicking reset button
+  
+    // when user try to reset
 
   const reset = document.querySelector("#reset");
   reset.addEventListener("click", function () {
