@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+.parent_div{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch{
+    background-color: black;
+    width: 25vw;
+    height: 50vh;
+    border-top: 15px solid grey;
+    border-bottom: 15px solid grey;
+    border-radius: 40px;
+    color: white;
+}
+
+ .time{
+    font-family: 'Times New Roman';
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    color: white;
+    font-size: 25px;
+ }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    line-height: 25px;
+}
+
+.time2{
+    
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.day{
+    font-family: 'Times New Roman';
+    padding-top: 30px;
+    font-size: 25px;
+} 
+.date{
+    font-family: 'Times New Roman';
+    font-size:20px;
+    padding-top: 5px; 
+}   
+
+
+#icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    font-size: large;
+}
+
+       
+#sms-container div {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 8px;
+  }
+  #sms-container {
+    width: 300px;
+    height: auto;
+    font-size: 10px;
+    text-align: start;
+    margin-left: 22px;
+    overflow: auto;
+    border-radius: 15px;
+    margin-bottom: 5px;
+  }
+  #text {
+    font-size: 10px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+  }
+#main{
+    text-align:center;
+}
+
+a{
+    color: gray;
+}
+
+a:hover{
+    color: antiquewhite;
+}
+
+/*smart-watch timer*/
+
+#clock-icons{
+ margin-left: 8px;
+ margin-right: 8px;
+ justify-content: space-around;  
+ display: flex; 
+}
+
+#clock-icons:hover{
+    color: aliceblue;
+}
+
+.timer{
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+#start{
+    font-size: 13px;
+    transform:scale(1.1);
+}
+
+#stop{
+    transform: scale(1.1);
+}
+
+#reset{
+    transform: scale(1.1);
+}
